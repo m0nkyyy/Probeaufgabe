@@ -1,0 +1,73 @@
+.project {
+    background-color: #616161;
+    border: none;
+    border-radius: 5px;
+    background: var(--accent);
+    font-size: 1rem;
+    color: var(--bg);
+    margin: 1rem 0;
+    padding: 5px 20px;
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.project p {
+    cursor: pointer;
+}
+
+.uptdel {
+    width: 80px;
+    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(310deg) brightness(102%) contrast(102%); */
+}
+
+.uptdel span {
+    width: 20px;
+    height: 20px;
+}
+
+.uptdel span img {
+    cursor: pointer;
+}
+
+.delete {
+    margin-left: 1rem;
+}
+
+/* #projectToggle {
+    border: 2px solid #ffb300;
+    position: absolute;
+    width: 850px;
+    height: 800px;
+    bottom: 0px;
+    left: 300px;
+    background-color: #212121;
+    display: none;
+} */
+
+
+.taskItem {
+    background-color: #ffb300;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style: none;
+    color: black;
+}
+
+.taskItem .uptdel {
+    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(310deg) brightness(102%) contrast(102%); */
+}
+
+#update {
+    display: none;
+}
+
+#abort {
+    display: none;
+}
